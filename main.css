@@ -1,26 +1,89 @@
+*{
+    box-sizing: border-box;
+    
+}
+
 html {
     font-size: 22px;
 }
-body {
-    background-color: #333;
-    color: whitesmoke ;
+body{
+    position: relative;
+    min-width:700px;
+    max-width: 100%;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 50px;
+    border: 10px solid grey;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+mark {
+    background-color: aqua;
+}
+
+ .copyright-entity {
+    color: rgb(238, 54, 54);
+}
+
+h1 , h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+article {
+    border: 30px;
+    color: rgb(20, 16, 16);
+}
+table, tr, th, td, caption {
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+
+    margin-top: 10px;
+    border: 1px dotted gray;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 10px;
 }
 
 a {
-    color: aliceblue;
+    color: rgb(238, 54, 54);
 }
 
 a:visited {
-    color: lightgray;
+    color: rgb(65, 10, 10);
 }
 
-a:hover, a:active {
-    color: #eee;
+fieldset {
+    color: rgb(37, 36, 36);
 }
 
-table, tr, th, td, caption {
-    border: 1px solid #eee;
-    font-family: 'Courier New', Courier, monospace;
-    border-collapse: collapse;
-    padding: 0.5rem;
+label{
+    color: black;
+}
+
+img{
+    display: block;
+    position: relative;
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption{
+    display: block;
+    position: relative;
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: cursive;
 }
